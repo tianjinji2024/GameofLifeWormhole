@@ -1,4 +1,3 @@
-```markdown
 # Conway's Game of Life with Wormholes
 
 This Python script implements a modified version of Conway's Game of Life, incorporating "wormholes" that connect distant parts of the grid, based on specifications likely provided in a coding challenge (e.g., ROKT).
@@ -124,4 +123,3 @@ These output images use the same format as `starting_position.png` (white for li
 
 *   **Stable States:** If the simulation reaches a stable pattern before 1000 iterations, the output files for later iterations might be identical. This is expected behavior.
 *   **Efficiency:** The script uses NumPy for faster array operations and caches neighbor lookups within a single step.
-```
